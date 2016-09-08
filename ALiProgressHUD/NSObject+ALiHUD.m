@@ -14,7 +14,7 @@
 
 - (void)showText:(NSString *)aText
 {
-    [ALiProgressHUD showInfoWithStatus:aText];
+    [ALiProgressHUD showWithStatus:aText];
 }
 
 
