@@ -63,7 +63,7 @@
 
 demo演示：
 
-{% ALiProgressHUD.gif  ALiProgressHUD %}
+![demo](https://i.niupic.com/images/2016/09/08/RnE9pQ.gif)
 
 #### 3、总结
  
