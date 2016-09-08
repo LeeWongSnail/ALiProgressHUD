@@ -16,6 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lci-00-yCo">
+                                <rect key="frame" x="58" y="85" width="51" height="30"/>
+                                <state key="normal" title="loading"/>
+                                <connections>
+                                    <action selector="loadingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIF-sT-aWF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJ5-Um-Zdm">
+                                <rect key="frame" x="230" y="85" width="75" height="30"/>
+                                <state key="normal" title="普通的文本"/>
+                                <connections>
+                                    <action selector="normalTextAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xuy-mp-ChU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PU-Sr-lX0">
+                                <rect key="frame" x="46" y="177" width="75" height="30"/>
+                                <state key="normal" title="失败的文本"/>
+                                <connections>
+                                    <action selector="failureAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6uo-rh-8zZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jl-Yo-roo">
+                                <rect key="frame" x="230" y="177" width="75" height="30"/>
+                                <state key="normal" title="成功的文本"/>
+                                <connections>
+                                    <action selector="successAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gV-zb-xxa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E83-gV-Ydn">
+                                <rect key="frame" x="46" y="285" width="75" height="30"/>
+                                <state key="normal" title="显示百分比"/>
+                                <connections>
+                                    <action selector="percentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3a3-Yo-5SW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-RA-5sI">
+                                <rect key="frame" x="230" y="293" width="75" height="30"/>
+                                <state key="normal" title="图片加文本"/>
+                                <connections>
+                                    <action selector="imageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Jf-L1-R3N"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

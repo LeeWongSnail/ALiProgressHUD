@@ -18,6 +18,14 @@
 		EB2D367C1D814FB900430C1A /* ALiProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2D367B1D814FB900430C1A /* ALiProgressHUDUITests.m */; };
 		EB2D368B1D81536B00430C1A /* NSObject+ALiHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2D368A1D81536B00430C1A /* NSObject+ALiHUD.m */; };
 		EB2D368F1D81559800430C1A /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2D368E1D81559800430C1A /* ALiProgressHUD.m */; };
+		EB2D36921D815C9D00430C1A /* emj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36901D815C9D00430C1A /* emj@2x.png */; };
+		EB2D36931D815C9D00430C1A /* emj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36911D815C9D00430C1A /* emj@3x.png */; };
+		EB2D369B1D815E9D00430C1A /* HUD_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36951D815E9D00430C1A /* HUD_error@2x.png */; };
+		EB2D369C1D815E9D00430C1A /* HUD_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36961D815E9D00430C1A /* HUD_error@3x.png */; };
+		EB2D369D1D815E9D00430C1A /* HUD_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36971D815E9D00430C1A /* HUD_info@2x.png */; };
+		EB2D369E1D815E9D00430C1A /* HUD_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36981D815E9D00430C1A /* HUD_info@3x.png */; };
+		EB2D369F1D815E9D00430C1A /* HUD_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D36991D815E9D00430C1A /* HUD_success@2x.png */; };
+		EB2D36A01D815E9D00430C1A /* HUD_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2D369A1D815E9D00430C1A /* HUD_success@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +69,14 @@
 		EB2D368A1D81536B00430C1A /* NSObject+ALiHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ALiHUD.m"; path = "../NSObject+ALiHUD.m"; sourceTree = "<group>"; };
 		EB2D368D1D81559800430C1A /* ALiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiProgressHUD.h; sourceTree = "<group>"; };
 		EB2D368E1D81559800430C1A /* ALiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiProgressHUD.m; sourceTree = "<group>"; };
+		EB2D36901D815C9D00430C1A /* emj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emj@2x.png"; sourceTree = "<group>"; };
+		EB2D36911D815C9D00430C1A /* emj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emj@3x.png"; sourceTree = "<group>"; };
+		EB2D36951D815E9D00430C1A /* HUD_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@2x.png"; sourceTree = "<group>"; };
+		EB2D36961D815E9D00430C1A /* HUD_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@3x.png"; sourceTree = "<group>"; };
+		EB2D36971D815E9D00430C1A /* HUD_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@2x.png"; sourceTree = "<group>"; };
+		EB2D36981D815E9D00430C1A /* HUD_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@3x.png"; sourceTree = "<group>"; };
+		EB2D36991D815E9D00430C1A /* HUD_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@2x.png"; sourceTree = "<group>"; };
+		EB2D369A1D815E9D00430C1A /* HUD_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +154,8 @@
 				EB2D365D1D814FB900430C1A /* ViewController.m */,
 				EB2D365F1D814FB900430C1A /* Main.storyboard */,
 				EB2D36621D814FB900430C1A /* Assets.xcassets */,
+				EB2D36901D815C9D00430C1A /* emj@2x.png */,
+				EB2D36911D815C9D00430C1A /* emj@3x.png */,
 				EB2D36641D814FB900430C1A /* LaunchScreen.storyboard */,
 				EB2D36671D814FB900430C1A /* Info.plist */,
 				EB2D36561D814FB900430C1A /* Supporting Files */,
@@ -174,12 +192,26 @@
 		EB2D368C1D81557700430C1A /* ALiHUD */ = {
 			isa = PBXGroup;
 			children = (
+				EB2D36941D815E9D00430C1A /* images */,
 				EB2D36891D81536B00430C1A /* NSObject+ALiHUD.h */,
 				EB2D368A1D81536B00430C1A /* NSObject+ALiHUD.m */,
 				EB2D368D1D81559800430C1A /* ALiProgressHUD.h */,
 				EB2D368E1D81559800430C1A /* ALiProgressHUD.m */,
 			);
 			path = ALiHUD;
+			sourceTree = "<group>";
+		};
+		EB2D36941D815E9D00430C1A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D36951D815E9D00430C1A /* HUD_error@2x.png */,
+				EB2D36961D815E9D00430C1A /* HUD_error@3x.png */,
+				EB2D36971D815E9D00430C1A /* HUD_info@2x.png */,
+				EB2D36981D815E9D00430C1A /* HUD_info@3x.png */,
+				EB2D36991D815E9D00430C1A /* HUD_success@2x.png */,
+				EB2D369A1D815E9D00430C1A /* HUD_success@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +320,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2D369F1D815E9D00430C1A /* HUD_success@2x.png in Resources */,
+				EB2D369D1D815E9D00430C1A /* HUD_info@2x.png in Resources */,
+				EB2D36921D815C9D00430C1A /* emj@2x.png in Resources */,
 				EB2D36661D814FB900430C1A /* LaunchScreen.storyboard in Resources */,
+				EB2D36931D815C9D00430C1A /* emj@3x.png in Resources */,
+				EB2D36A01D815E9D00430C1A /* HUD_success@3x.png in Resources */,
 				EB2D36631D814FB900430C1A /* Assets.xcassets in Resources */,
+				EB2D369C1D815E9D00430C1A /* HUD_error@3x.png in Resources */,
+				EB2D369E1D815E9D00430C1A /* HUD_info@3x.png in Resources */,
 				EB2D36611D814FB900430C1A /* Main.storyboard in Resources */,
+				EB2D369B1D815E9D00430C1A /* HUD_error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
