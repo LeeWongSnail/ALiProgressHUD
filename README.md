@@ -61,6 +61,10 @@
 
 `如果你想自定义显示的图片 可以在ALiProgressHUD中替换那几张图片即可`
 
+demo演示：
+
+{% ALiProgressHUD.gif  ALiProgressHUD %}
+
 #### 3、总结
  
  项目中有很多让我们头疼的问题，就不要让这一个小小的弹窗困扰我们了。如果你还需要其他的样式 欢迎给我提issues，我会及时回复的！
