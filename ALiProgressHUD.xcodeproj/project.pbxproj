@@ -284,6 +284,7 @@
 				TargetAttributes = {
 					EB2D36521D814FB900430C1A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XWNPFKK4U5;
 					};
 					EB2D366B1D814FB900430C1A = {
 						CreatedOnToolsVersion = 7.3;
@@ -549,6 +550,7 @@
 			baseConfigurationReference = 5442020229B5BB67079BB21C /* Pods-ALiProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				INFOPLIST_FILE = ALiProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ALiProgressHUD;
@@ -561,6 +563,7 @@
 			baseConfigurationReference = 5A5676829C89D6FA32668A14 /* Pods-ALiProgressHUD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				INFOPLIST_FILE = ALiProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ALiProgressHUD;
