@@ -66,7 +66,8 @@ demo演示：
 ![demo](https://i.niupic.com/images/2016/09/08/RnE9pQ.gif)
 
 支持重力感应调整弹窗：
-![示例图](http://og0h689k8.bkt.clouddn.com/16-11-3/41928219.jpg);
+
+![示例图](http://og0h689k8.bkt.clouddn.com/16-11-3/41928219.jpg)
 
 #### 3、总结
  
